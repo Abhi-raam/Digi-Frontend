@@ -10,7 +10,7 @@ function LoginPage() {
 
   const loginHandle = () =>{
     if (pin == '5456'){
-      navigate('/',{state:true})
+      navigate('/user',{state:true})
     }
     else{
       alert('Incorrect PIN')
