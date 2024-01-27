@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-color:#eee;
+}
 
-
-/* @font-face {
+@font-face {
     font-family: 'BOLD';
     src: url('./assets/Font/bold.ttf') format('truetype');
     
@@ -12,4 +14,4 @@
 
 h1{
     font-family: 'BOLD';
-} */
+}
