@@ -33,14 +33,14 @@ function Home() {
       {loc.state ?
       <>
       <Navbar/>
-        <div className='pt-10'>
+        <div className=''>
           <div>
             <div>
-              <h1 className='text-4xl font-semibold text-center text-gray-800'>Heading</h1>
+              <h1 className='text-4xl font-semibold text-center text-gray-800'>ZephyrHub</h1>
             </div>
             <div className='flex justify-center p-3 items-center'>
               <div className='max-w-3xl text-justify'>
-                <p className='text-slate-600 font-semibold'>The react-router-dom package contains bindings for using React Router in web applications. Please see the Getting Started guide for more information on how to get started with React Router.</p>
+                <p className='text-slate-600 font-semibold'>Empower your digital marketing journey with our platform. Together, let's amplify success by seamlessly connecting and navigating through the dynamic landscape of online presence, ensuring your strategies reach new heights.</p>
               </div>
             </div>
             <div className='flex px-6'>
@@ -58,7 +58,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className='grid grid-cols-1  lg:grid-cols-3 gap-10 place-items-center px-9 pt-5 pb-5'>
+          <div className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-10 place-items-center px-9 pt-5 pb-5'>
             {company.map((comp, index) => (
               <>
                 {selectedLocation ?

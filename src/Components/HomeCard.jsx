@@ -4,18 +4,15 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 function HomeCard({data}) {
   return (
-    <div className='bg-gray-100 p-4 px-3 flex space-x-7 rounded-md w-[30rem] hover:-translate-y-2 transition cursor-pointer shadow-md'>
+    <div className='bg-gray-100 p-4 px-3 flex space-x-7 rounded-md  lg:w-[30rem] hover:-translate-y-1 transition cursor-pointer shadow-md'>
         <div className='p-3'>
-            <img className='w-[6rem] rounded-full' src={`https://zyfarer.pythonanywhere.com/${data.Image}`} alt="" />
+            <img className='w-[6rem] rounded-full' src={`http://192.168.1.37:8000/${data.Image}`} alt="" />
         </div>
         <div className='space-y-4'>
             <div>
                 <h1 className='text-xl font-semibold text-gray-800'>{data.CompanyName}</h1>
             </div>
-            {/* <div className='font-semibold text-gray-800'>
-                <p>The react-router-dom package contains bindings for using React Router in web applications.</p>
-            </div> */}
-            <div className='grid grid-cols-5 gap-8'>
+            <div className='grid  grid-cols-5 gap-4 lg:gap-8 pr-3'>
                 <a href={data.Facebook} target='_blank'>
                     <FaFacebook className='text-3xl text-blue-700 '/>
                 </a>
